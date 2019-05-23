@@ -1,0 +1,12 @@
+SELECT dest 
+ FROM flights
+ RIGHT JOIN airports ON flights.dest = airports.faa
+ WHERE dest IS NULL;
+
+
+select count(distinct dest) from flights ;
+
+select distinct dest AS dest_uniq 
+from flights AS f
+RIGHT JOIN airports ON f.dest_uniq = airports.faa ;
+

@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552476208863.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E375EFA9",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1552476208863,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "F522E2DC",
+        "caption" : "dest_airports",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=dest_airports&cache_key=F522E2DC",
+        "displayedObservations" : "101",
+        "environment" : "",
+        "object" : "dest_airports",
+        "preview" : "0",
+        "totalObservations" : "101",
+        "variables" : "1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

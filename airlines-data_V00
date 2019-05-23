@@ -1,0 +1,19 @@
+SET AUTOCOMMIT = 0;
+
+START TRANSACTION ;
+
+-- Connection à la DB.
+USE nyc_flights ;
+
+-- Chargement de la table airlines depuis un fichier csv.
+
+
+LOAD DATA local INFILE 'D:/Simplon/SQL/Flights/Fichiers_csv/airlines.csv'
+INTO TABLE airlines
+FIELDS TERMINATED BY ',' -- separateur: ;|
+LINES TERMINATED BY '\n'  -- '\r\n' for windows
+OPTIONALLY ENCLOSED BY '"'
+IGNORE 1 lines	 		  -- 0 lines ça marche  
+(carrier, name);
+
+-- Fin de fichier Data airlines --

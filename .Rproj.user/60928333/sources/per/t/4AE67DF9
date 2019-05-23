@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1551888434955.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4AE67DF9",
+    "lastKnownWriteTime" : 7226435094589303907,
+    "last_content_update" : 1551888434955,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "6CFB23E9",
+        "caption" : "airlines",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=airlines&cache_key=6CFB23E9",
+        "displayedObservations" : "16",
+        "environment" : "",
+        "object" : "airlines",
+        "preview" : "0",
+        "totalObservations" : "16",
+        "variables" : "2"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
